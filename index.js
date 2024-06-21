@@ -1,5 +1,4 @@
-const FormRoutes = require("./Ajadi-Backend/Routes/FormRoute")
-const MessageRoutes = require("./Ajadi-Backend/Routes/MessageRoute")
+const FormRoutes = require("./Ileya-Backend/Routes/FormRoute")
 
 
 
@@ -40,7 +39,6 @@ const connectDB = async ()=> {
 
  
 app.use("/api/form", FormRoutes)
-app.use("/api/msg", MessageRoutes)
 
 
 
