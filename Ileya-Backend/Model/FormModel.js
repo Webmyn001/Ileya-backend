@@ -40,6 +40,11 @@ let Form = new Schema(
         required: true,
     },
 
+    NOKName: {
+        type: String,
+        required: true,
+    },
+
      Marital: {
         type: String,
         required: true,

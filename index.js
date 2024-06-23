@@ -16,6 +16,7 @@ app.use(bp.urlencoded({ extended: true, limit :'10mb' }))
 
 app.use(cors());
  const PORT= 4000
+ 
 app.use((req,res, next) => {
    console.log(req.path , req.body ,req.method , res.body, req.file)
    next()
